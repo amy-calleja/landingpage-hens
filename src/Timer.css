@@ -1,0 +1,37 @@
+.App .timer {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 32px #f09,
+        0 0 100px #f09;
+    display: inline-block;
+    margin-top: 75px;
+    padding: 10px;
+    text-align: center;
+    width: 380px;
+
+  }
+  
+  .col-4 {
+    width: 25%;
+    float: left;
+  }
+  
+ .box {
+
+    font-weight: 400;
+    padding: 10px;
+  }
+  
+  .col-4:last-child .box {
+    border-right-color: transparent;
+  }
+  
+  .App .box p {
+    font-size: calc(16px + 2vmin);
+    margin: 0;
+  }
+  
+  
