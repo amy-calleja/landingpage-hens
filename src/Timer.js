@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import './Timer.css'
 
 export default function Timer({ deadline = new Date().toString() }){
@@ -7,10 +7,10 @@ const MINUTE = SECOND * 60;
 const HOUR = MINUTE * 60;
 const DAY = HOUR * 24;
 
-  const parsedDeadline = React.useMemo(() => Date.parse(deadline), [deadline]);
-  const [time, setTime] = React.useState(parsedDeadline - Date.now());
+  const parsedDeadline = useMemo(() => Date.parse(deadline), [deadline]);
+  const [time, setTime] = useState(parsedDeadline - Date.now());
 
-  React.useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(
       () => setTime(parsedDeadline - Date.now()),
       1000
