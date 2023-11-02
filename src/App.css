@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #0f6b43e6;
+  color: #960751e6;
 }
 
 .aloha  {
@@ -22,7 +22,7 @@
   font-family: 'Damion', cursive;
   font-size: 40px;
   font-weight: 300;
-  margin: 5px;
+
   letter-spacing: normal;
 }
 
@@ -78,10 +78,10 @@
 
 
 .bodytitle{
-  font-size: 15px;
+  font-size: 14px;
   font-style: italic;
   font-weight: 400;
-  color: #0f6b43e6;
+  color: #960751e6;
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
@@ -114,12 +114,12 @@ a{
 }
 a:hover{
   font-weight: 800;
-  color: rgb(210, 35, 140);
+  color: #f09;
 }
 
 :any-link{
   text-decoration: none;
-  color:  #0f6b43e6;
+  color:  #b51467e6;
 }
 
 img{
