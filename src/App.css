@@ -18,7 +18,7 @@
 
 .App-header {
 
-margin: 50px;
+margin: 40px;
 
   display: flex;
   flex-direction: column;
@@ -50,6 +50,7 @@ margin: 50px;
       0 0 40px #01482c,
       0 0 12px #098b57,
       0 0 16px #098b57,
+      0 0 12px #f09,
       0 0 42px #f09,
       0 0 82px #f09,
       0 0 92px #f09,
@@ -63,7 +64,7 @@ margin: 50px;
     margin-bottom: 50px;
     margin-top: 5px;
     line-height: 1.5;
-    font-size: 60px;
+    font-size: 65px;
     letter-spacing: normal;
     animation: pulsate 0.11s ease-in-out infinite alternate;  
   }

@@ -1,7 +1,7 @@
 .App .timer {
     color: #f09;
     text-shadow:
-    0 0 2px #f09,
+    0 0 1px #f09,
         0 0 1px #f09,
         0 0 2px #f09,
         0 0 2px #fff;
