@@ -4,9 +4,8 @@
   font-weight: 400;
   letter-spacing: 1.2px;
   background-image: url(./palm-leaves.jpg);
-  width: 100%;
-  min-width: fit-content;
-  min-height: fit-content;
+  height: auto;
+  max-width: 100%;
   background-position: center;
   background-repeat: 'no-repeat'; 
   background-size:cover;
