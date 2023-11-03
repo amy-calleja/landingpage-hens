@@ -11,8 +11,8 @@ import flower from './flower.png'
 function App() {  
   return (
     <div className="App">
-      <div className='container-fluid' style={{backgroundImage: `url(${palms})`,  backgroundRepeat: 'no-repeat',  backgroundSize: 'cover'}}>
-        <div className="App-header">
+      <div className='container-fluid' >
+        <div className="App-header img-overlay">
           <div className='aloha'>Aloha!</div>
           <div className='bodytitle'>hula on down to celebrate the bride-to-be at</div>
           <header className='title'>Lisa's Last Luao</header>
@@ -22,7 +22,7 @@ function App() {
                 <FontAwesomeIcon icon={faLocationDot} /> 9 Centaur Street, Kallaroo WA 6025</a>
               </div>
             
-            <div>in line with the honeymoon destination, come dressed in the theme:
+            <div style={{marginTop: '12px'}}>in line with the honeymoon destination, come dressed in the theme:
                <div className='theme'>Tropical Hawaiian <span><img src={`${flower}`} style={{display: 'inline-block',position: 'relative', top: '-6px',}} width='30px' /></span></div>
               
                </div> 

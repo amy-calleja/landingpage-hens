@@ -1,13 +1,13 @@
 .App .timer {
-    color: #fff;
+    color: #224821ca;
     text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
         0 0 21px #fff,
-        0 0 32px #f09,
-        0 0 100px #f09;
+        0 0 32px #224821,
+        0 0 100px #224821;
     display: inline-block;
-    margin-top: 75px;
+    margin-top: 15px;
     padding: 10px;
     text-align: center;
     width: 380px;
