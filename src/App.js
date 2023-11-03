@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import palms from './pink-background.jpg'
+import palms from './palm-leaves.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faMartiniGlass } from '@fortawesome/free-solid-svg-icons';
@@ -10,7 +10,15 @@ import flower from './flower.png'
 
 function App() {  
   return (
-    <div className="App">
+    <div className="App" style={{backgroundImage:  `url(${palms}) `,
+    height: 'auto',
+    maxWidth: '100%',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat', 
+    backgroundSize: 'cover',
+    width: '100%',
+    display: 'flex',
+    minHeight: '110vh'}}>
       <div className='container-fluid' style={{backgroundColor: 'rgba(440, 255, 253, 0.1.5)',
   filter: 'blur(0.1px)'}}>
         <div className="App-header container-sm">
