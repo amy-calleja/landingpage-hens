@@ -2,7 +2,7 @@
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.1px;
 }
 
 .App-header {
@@ -49,7 +49,7 @@ margin: 10px;
     font-weight: 200;
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 28px;
+    margin-bottom: 22px;
     line-height: 1.5;
     font-size: 58px;
     letter-spacing: normal;
@@ -83,7 +83,7 @@ margin: 10px;
 
 
 .bodytitle{
-  font-size: 12px;
+  font-size: 11px;
   font-style: italic;
   font-weight: 500;
   color: #224821;

@@ -35,7 +35,7 @@ function App() {
                <div className='theme'>Tropical Hawaiian <span><img src={`${flower}`} style={{display: 'inline-block',position: 'relative', top: '-6px',}} width='30px' /></span></div>
               
                </div> 
-            <div> BYO alcohol, limited drinks provided</div>
+            <div style={{fontSize: '11px', marginBottom: '12px'}}> BYO alcohol, limited drinks provided</div>
             
 
             <>
