@@ -11,13 +11,13 @@
   background-size: cover;
   width: 100%;
   display: flex;
-  min-height:100vh;
+  min-height: 110vh;
 }
 
 
 
 .App-header {
-margin: 30px;
+margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +60,7 @@ margin: 30px;
     font-weight: 200;
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 5px;
     line-height: 1.5;
     font-size: 65px;
@@ -95,7 +95,7 @@ margin: 30px;
 
 
 .bodytitle{
-  font-size: 13px;
+  font-size: 12px;
   font-style: italic;
   font-weight: 500;
   color: #224821;
@@ -116,7 +116,7 @@ margin: 30px;
 .theme {
 font-weight: 200;
 margin-top: 10px;
-margin-bottom: 20px;
+margin-bottom: 28px;
 letter-spacing: normal;
 font-style: normal;
 color:#f09;

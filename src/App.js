@@ -11,7 +11,7 @@ import flower from './flower.png'
 function App() {  
   return (
     <div className="App">
-      <div className='container-fluid' style={{backgroundColor: 'rgba(440, 255, 253, 0.35)',
+      <div className='container-fluid' style={{backgroundColor: 'rgba(440, 255, 253, 0.1.5)',
   filter: 'blur(0.1px)'}}>
         <div className="App-header container-sm">
           <div className='aloha'>Aloha!</div>
@@ -27,7 +27,7 @@ function App() {
                <div className='theme'>Tropical Hawaiian <span><img src={`${flower}`} style={{display: 'inline-block',position: 'relative', top: '-6px',}} width='30px' /></span></div>
               
                </div> 
-            <div> BYO alcohol, as limited drinks will be provided</div>
+            <div> BYO alcohol, limited drinks provided</div>
             
 
             <>
