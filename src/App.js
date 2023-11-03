@@ -11,7 +11,7 @@ import flower from './flower.png'
 function App() {  
   return (
     <div className="App">
-      <div className='container-fluid' style={{backgroundColor: 'rgba(240, 255, 253, 0.149)',
+      <div className='container-fluid' style={{backgroundColor: 'rgba(440, 255, 253, 0.35)',
   filter: 'blur(0.1px)'}}>
         <div className="App-header container-sm">
           <div className='aloha'>Aloha!</div>
