@@ -1,5 +1,5 @@
 .App .timer {
-  margin-top: -18px;
+  margin-top: -12px;
     color: #f09;
     text-shadow:
     0 0 1px #f09,
@@ -8,9 +8,9 @@
         0 0 2px #f09,
         0 0 2px #fff;
     display: inline-block;
-    padding: 15px;
+    padding: 0px;
     text-align: center;
-    width: 310px;
+    width: 270px;
   }
   
   .col-4 {
@@ -19,8 +19,9 @@
   }
   
  .box {
-    font-weight: 400;
-    padding: 10px;
+  /*border-right: solid 1px rgba(255, 0, 153, 0.124);*/
+    font-weight: 300;
+    padding: 12px;
   }
   
   .col-4:last-child .box {
@@ -28,12 +29,12 @@
   }
   
   .App .box p {
-    font-size: calc(14px + 2vmin);
-    margin: 0;
+    font-size: calc(13px + 2vmin);
+    margin: 5px;
   }
   
   .text{
-    font-size: 13px;
+    font-size: 11px;
 
   }
   
