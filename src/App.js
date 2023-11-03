@@ -31,11 +31,11 @@ function App() {
                 <FontAwesomeIcon icon={faLocationDot} /> 9 Centaur Street, Kallaroo WA 6025</a>
               </div>
             
-            <div style={{marginTop: '12px'}}>in line with the honeymoon destination, come dressed in the theme:
+            <div style={{marginTop: '14px'}}>in line with the honeymoon destination, come dressed in the theme:
                <div className='theme'>Tropical Hawaiian <span><img src={`${flower}`} style={{display: 'inline-block',position: 'relative', top: '-6px',}} width='30px' /></span></div>
               
                </div> 
-            <div style={{fontSize: '11px', marginBottom: '12px'}}> BYO alcohol, limited drinks provided</div>
+            <div style={{fontSize: '11px', marginBottom: '14px'}}> BYO alcohol, limited drinks provided</div>
             
 
             <>
