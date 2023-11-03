@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <div className='container-fluid' >
-        <div className="App-header img-overlay">
+        <div className="App-header container-sm">
           <div className='aloha'>Aloha!</div>
           <div className='bodytitle'>hula on down to celebrate the bride-to-be at</div>
           <header className='title'>Lisa's Last Luao</header>

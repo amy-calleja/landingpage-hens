@@ -8,27 +8,32 @@
   max-width: 100%;
   background-position: center;
   background-repeat: 'no-repeat'; 
-  background-size:cover;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
 }
 
 
 
 .App-header {
-  position: relative;
-  top: -100px;
-  padding: 40px;
-  min-height: 100vh;
+
+margin: 50px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  min-height: 100vh;
   color: #224821;
   width: 100%;
 }
 
 .aloha  {
-  color: #224821;
-  text-shadow: 0 0 2px #224821;
+  color: #f09;
+  text-shadow:
+      0 0 1px #f09,
+      0 0 2px #f09,
+      0 0 2px #fff;
   font-family: 'Damion', cursive;
   font-size: 30px;
   font-weight: 300;
@@ -94,7 +99,7 @@
   font-style: italic;
   font-weight: 400;
   color: #224821;
-  margin-bottom: 30px;
+  margin-bottom: 65px;
   letter-spacing: 1px;
 }
 
@@ -115,14 +120,17 @@ margin-bottom: 20px;
 letter-spacing: normal;
 font-style: normal;
 color:#f09;
-text-shadow: 0 0 2px #f09;
+text-shadow:
+    0 0 1px #f09,
+    0 0 2px #f09,
+    0 0 2px #fff;
 font-family: 'Damion', cursive;
 font-size: 30px;
 }
 
 a{
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 a:hover{
   font-weight: 800;
@@ -131,7 +139,7 @@ a:hover{
 
 :any-link{
   text-decoration: none;
-  color:  #224821;
+  color:  #f09;
 }
 
 img{
