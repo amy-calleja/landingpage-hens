@@ -39,9 +39,8 @@ function App() {
                   alignItems: "stretch",
                   display: "inline-block",
                   position: "relative",
-                  top: "-15px",
+                  top: "-10px",
                   left: "20px",
-                  height: "auto",
                 }}
               />{" "}
             </div>
