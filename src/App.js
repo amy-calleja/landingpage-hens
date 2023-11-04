@@ -41,7 +41,7 @@ function App() {
                   position: "relative",
                   top: "-15px",
                   left: "20px",
-                  height: "320px",
+                  height: "auto",
                   width: "300px",
                 }}
               />{" "}
