@@ -18,6 +18,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #ffd6ed;
   text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
 }
@@ -33,8 +35,8 @@
   letter-spacing: normal;
 }
 .hula {
-  align-self: baseline;
-  width: auto;
+  margin-left: 10px;
+  align-self: flex-end;
 }
 .title {
   color: rgb(255, 203, 91);
@@ -43,12 +45,12 @@
   font-family: "Lobster", cursive;
   text-align: left;
   font-weight: 800;
-  padding-left: 00px;
-  padding-right: 20px;
+  padding-right: 10px;
   margin: 0;
   margin-bottom: 30px;
+  align-self: flex-start;
   line-height: 1.5;
-  font-size: 68px;
+  font-size: 65px;
   letter-spacing: normal;
 }
 

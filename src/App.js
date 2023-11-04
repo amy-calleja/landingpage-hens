@@ -33,14 +33,14 @@ function App() {
           <div className="row pt-3">
             <div className="col-6">
               <img
-                className="img-fluid hula"
+                className="hula"
                 src={`${hula}`}
                 style={{
-                  alignItems: "stretch",
                   display: "inline-block",
                   position: "relative",
-                  top: "-10px",
-                  left: "20px",
+                  top: "10px",
+                  right: "12px",
+                  height: "270px",
                 }}
               />{" "}
             </div>
