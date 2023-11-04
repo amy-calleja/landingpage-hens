@@ -7,6 +7,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faMartiniGlass } from "@fortawesome/free-solid-svg-icons";
 import Timer from "./Timer";
 import flower from "./flower.png";
+import hula from "./hula.png";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         maxWidth: "100%",
-        height: "110vh",
+        height: "120vh",
         backgroundPosition: "center",
         display: "flex",
       }}
@@ -29,7 +30,29 @@ function App() {
             hula on down to celebrate the bride-to-be
             <br /> in all things Hawaiian at
           </div>
-          <header className="title">Lisa's Last Luao</header>
+          <div className="row pt-3">
+            <div className="col-6">
+              <img
+                className="img-fluid"
+                src={`${hula}`}
+                style={{
+                  alignItems: "right",
+                  display: "inline-block",
+                  position: "relative",
+                  top: "-15px",
+                  left: "20px",
+                  maxHeight: "430px",
+                }}
+              />{" "}
+            </div>
+            <div className="col-6">
+              <header className="title">
+                Lisa's <br />
+                Last <br />
+                Luao
+              </header>
+            </div>
+          </div>
           <div className="details">
             <div className="time">2:00PM Saturday the 2nd of December</div>
             <div className="address" style={{ fontStyle: "normal" }}>
@@ -43,17 +66,17 @@ function App() {
               </a>
             </div>
 
-            <div style={{ marginTop: "14px" }}>
+            <div style={{ marginTop: "10px" }}>
               in line with the honeymoon destination, come dressed in the theme:
               <div className="theme">
                 Tropical Hawaiian{" "}
-                <span>
+                <span className="flower">
                   <img
                     src={`${flower}`}
                     style={{
                       display: "inline-block",
                       position: "relative",
-                      top: "-3px",
+                      top: "-5px",
                     }}
                     width="30px"
                   />
