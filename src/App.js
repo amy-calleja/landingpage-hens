@@ -11,18 +11,18 @@ import flower from "./flower.png";
 function App() {
   return (
     <div
-      className="App container-fluid"
+      className="App container-fluid center"
       style={{
         backgroundImage: `url(${palms}) `,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         maxWidth: "100%",
-        height: "100vh",
+        height: "110vh",
         backgroundPosition: "center",
         display: "flex",
       }}
     >
-      <div className="container-fluid">
+      <div className="container-fluid center">
         <div className="App-header container-md">
           <div className="aloha">Aloha!</div>
           <div className="bodytitle">
