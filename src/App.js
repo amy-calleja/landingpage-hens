@@ -36,7 +36,7 @@ function App() {
                 className="img-fluid"
                 src={`${hula}`}
                 style={{
-                  alignItems: "baseline-position",
+                  alignItems: "stretch",
                   display: "inline-block",
                   position: "relative",
                   top: "-15px",
