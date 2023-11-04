@@ -53,7 +53,7 @@ function App() {
                     style={{
                       display: "inline-block",
                       position: "relative",
-                      top: "-6px",
+                      top: "-3px",
                     }}
                     width="30px"
                   />
