@@ -36,13 +36,13 @@ function App() {
                 className="img-fluid"
                 src={`${hula}`}
                 style={{
-                  alignItems: "right",
+                  alignItems: "baseline-position",
                   display: "inline-block",
                   position: "relative",
                   top: "-15px",
                   left: "20px",
                   height: "320px",
-                  width: "270px",
+                  width: "300px",
                 }}
               />{" "}
             </div>
