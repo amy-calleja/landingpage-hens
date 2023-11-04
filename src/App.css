@@ -1,136 +1,104 @@
 .App {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 1.1px;
 }
 
 .App-header {
-margin: 10px;
+  padding: 40px;
+  background: rgba(24, 24, 24, 0.856);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
-  color: #224821;
+  color: #ffd6ed;
+  text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
   width: 100%;
 }
 
-.aloha  {
+.aloha {
   color: #f09;
-  text-shadow:
-      0 0 1px #f09,
-      0 0 2px #f09,
-      0 0 2px #fff;
-  font-family: 'Damion', cursive;
-  font-size: 30px;
+  text-shadow: 0 0 22px rgb(0, 0, 0), 0 0 8px rgb(0, 0, 0), 0 0 3px #f09,
+    0 0 21px rgb(0, 0, 0), 0 0 122px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+  font-family: "Damion", cursive;
+  font-size: 34px;
   font-weight: 300;
   letter-spacing: normal;
-  margin-bottom: -3px;
 }
 
-.title{
-    color: #fff;
-    text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 122px #f09,
-      0 0 40px #01482c,
-      0 0 12px #098b57,
-      0 0 16px #098b57,
-      0 0 12px #f09,
-      0 0 42px #f09,
-      0 0 82px #f09,
-      0 0 92px #f09,
-      0 0 102px #f09,
-      0 0 151px #f09; 
-      font-family: 'Damion', cursive;
-    text-align: center;
-    font-weight: 200;
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 22px;
-    line-height: 1.5;
-    font-size: 58px;
-    letter-spacing: normal;
-    animation: pulsate 0.11s ease-in-out infinite alternate;  
-  }
-
-@keyframes pulsate {
-  100% {
-      text-shadow:
-      0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 19px #fff,
-      0 0 40px #f09,
-      0 0 80px #f09,
-      0 0 90px #f09,
-      0 0 100px #f09,
-      0 0 140px #f09;
-  }
-  0% {
-    text-shadow:
-    0 0 4px #fff,
-    0 0 10px #fff,
-    0 0 18px #fff,
-    0 0 38px #f09,
-    0 0 73px #f09,
-    0 0 80px #f09,
-    0 0 94px #f09,
-    0 0 130px #f09;
-}
+.title {
+  color: #f09;
+  text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 3px #f09, 0 0 41px rgb(0, 0, 0),
+    0 0 122px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+  font-family: "Lobster", cursive;
+  text-align: center;
+  font-weight: 800;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-size: 60px;
+  letter-spacing: normal;
 }
 
-
-.bodytitle{
+.bodytitle {
   font-size: 11px;
   font-style: italic;
   font-weight: 500;
-  color: #224821;
-  margin-bottom: 55px;
+  color: #ffd6ed;
+  text-shadow: 0 0 1px rgb(0, 0, 0), 0 0 1px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+
+  margin-bottom: 22px;
   letter-spacing: 1px;
 }
 
-.address{
-  margin-bottom: 25px;
+.address {
+  margin-top: 1px;
+  margin-bottom: 32px;
 }
 
-.details{
+.details {
+  margin-top: 0px;
+  margin-inline: 80px;
   line-height: 20px;
   font-size: 13px;
   font-style: italic;
 }
 
 .theme {
-font-weight: 200;
-margin-top: 10px;
-margin-bottom: 32px;
-letter-spacing: normal;
-font-style: normal;
-color:#f09;
-text-shadow:
-    0 0 1px #f09,
-    0 0 2px #f09,
-    0 0 2px #fff;
-font-family: 'Damion', cursive;
-font-size: 30px;
+  font-weight: 200;
+  margin-top: 14px;
+  margin-bottom: 32px;
+  letter-spacing: normal;
+  font-style: normal;
+  color: #f09;
+  text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0), 0 0 28px rgb(0, 0, 0),
+    0 0 3px #f09, 0 0 21px rgb(0, 0, 0), 0 0 122px rgb(0, 0, 0),
+    0 0 3px rgb(0, 0, 0);
+
+  font-family: "Damion", cursive;
+  font-size: 30px;
 }
 
-a{
+a {
   text-decoration: none;
   font-weight: 500;
 }
-a:hover{
+a:hover {
   font-weight: 800;
   color: #f09;
 }
 
-:any-link{
+:any-link {
   text-decoration: none;
-  color:  #f09;
+  color: #f09;
 }
 
-img{
-  filter: invert(40%) sepia(100%) hue-rotate(-80deg) saturate(5); 
-
+img {
+  filter: invert(40%) sepia(100%) hue-rotate(-80deg) saturate(5);
 }
