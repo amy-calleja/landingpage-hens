@@ -32,7 +32,10 @@
   font-weight: 300;
   letter-spacing: normal;
 }
-
+.hula {
+  align-self: baseline;
+  width: auto;
+}
 .title {
   color: rgb(255, 203, 91);
   text-shadow: 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 203, 91),

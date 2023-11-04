@@ -33,7 +33,7 @@ function App() {
           <div className="row pt-3">
             <div className="col-6">
               <img
-                className="img-fluid"
+                className="img-fluid hula"
                 src={`${hula}`}
                 style={{
                   alignItems: "stretch",
