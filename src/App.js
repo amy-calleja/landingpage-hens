@@ -41,7 +41,8 @@ function App() {
                   position: "relative",
                   top: "-15px",
                   left: "20px",
-                  maxHeight: "430px",
+                  height: "320px",
+                  width: "270px",
                 }}
               />{" "}
             </div>
