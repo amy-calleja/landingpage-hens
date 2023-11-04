@@ -60,7 +60,7 @@ function App() {
                 </span>
               </div>
             </div>
-            <div style={{ fontSize: "11px", marginBottom: "14px" }}>
+            <div style={{ fontSize: "12px", marginBottom: "14px" }}>
               {" "}
               BYO alcohol, limited drinks provided
             </div>
