@@ -42,7 +42,6 @@ function App() {
                   top: "-15px",
                   left: "20px",
                   height: "auto",
-                  width: "300px",
                 }}
               />{" "}
             </div>
