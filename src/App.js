@@ -53,7 +53,11 @@ function App() {
             </div>
           </div>
           <div className="details">
-            <div className="time">2:00PM Saturday the 2nd of December</div>
+            <div className="time">
+              2:00PM Saturday the 2nd of December
+              <br />
+              part2 - 5:45PM onwards
+            </div>
             <div className="address" style={{ fontStyle: "normal" }}>
               <a
                 target="_blank"
@@ -84,7 +88,7 @@ function App() {
             </div>
             <div style={{ fontSize: "12px", marginBottom: "14px" }}>
               {" "}
-              BYO alcohol, limited drinks provided
+              drinks and light food provided
             </div>
 
             <>
